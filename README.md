@@ -4,9 +4,9 @@ Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanom
 
 The original data set of 10K images was augmented by rotating 90 degrees x 3 = 40K images. All of these images were then zoomed by 20% = 80K images. The images were then divided into training and validation sets of 64K (80%) and 16K (20%). Note that the augmented images were not mixed between the training and validation sets to prevent data leakage.
 
-The data was then trained on the Keras VGG16, InceptionV3, and ResNet50 models. The best performing model was the ResNet50 using the following process which is detailed on the attached Jupyter notebook:
+The data was then trained on the Keras VGG16, InceptionV3, and ResNet50 models. The best performing model was the ResNet50 which is detailed on the attached Jupyter Notebook.
 
-After replacing the 1K classification dense layer with a 7 classification dense layer, ALL of the layers were trained on the 80k images with a learning rate of 0.00003. The final model was trained on a GTA 1080ti for 1 epoch / 514 seconds, resulting in the following performance:
+The final model was trained on a GTA 1080ti for 1 epoch / 514 seconds, resulting in the following performance:
 
 					Loss	  Accuracy
 			Training	0.3958	  0.8576
