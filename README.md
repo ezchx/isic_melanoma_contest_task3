@@ -12,4 +12,4 @@ The final model was trained on a GTA 1080ti for 1 epoch / 514 seconds, resulting
 			Training	0.3958	  0.8576
 			Validation	0.4438	  0.8516
 
-The model was then run on the contest validation data of 193 images resulting in an accuracy of 81.7%. Final results for the 1,512 test images will be available on 07/29/2018.
+The model was then run on the contest validation data set of 193 images resulting in an accuracy of 81.7%. Final results for the 1,512 test images will be available on 07/29/2018.
