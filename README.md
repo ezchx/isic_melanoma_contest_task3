@@ -6,7 +6,7 @@ The original data set of 10K images were rotated by 90 degrees x 3 and then zoom
 
 The data was then trained on VGG16, InceptionV3, and ResNet50 models using Keras. The best performing model was based on ResNet50 which is shown on the attached Jupyter Notebook.
 
-The final model was trained on a GTA 1080ti for 1 epoch / 514 seconds, resulting in the following performance:
+The final model was trained for 1 epoch / 514 seconds on a GTA 1080ti GPU, resulting in the following performance:
 
 					Loss	  Accuracy
 			Training	0.3958	  0.8576
