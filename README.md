@@ -6,10 +6,12 @@ The original data set of 10K images were rotated by 90 degrees x 3 and then zoom
 
 The data was then trained on VGG16, InceptionV3, and ResNet50 models using Keras. The best performing model was based on ResNet50 which is shown on the attached Jupyter Notebook.
 
-The final model was trained for 1 epoch / 514 seconds on a GTA 1080ti GPU, resulting in the following performance:
+The ResNet50 model was trained for 1 epoch / 514 seconds on a GTA 1080ti GPU, resulting in the following performance:
 
 					Loss	  Accuracy
 			Training	0.3958	  0.8576
 			Validation	0.4438	  0.8516
 
-The model was then run on the contest validation data set of 193 images resulting in an accuracy of 81.7%. Final results for the 1,512 test images will be available on 07/29/2018.
+The model was also achieved a classification accuracy of 81.7% based on the ISIC contest validation data set of 193 images.
+
+Final results for the 1,512 test images will be available on 07/29/2018.
