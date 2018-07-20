@@ -6,7 +6,7 @@ The original data was augmented by rotating and zooming the images as well as ad
 
 The images were trained on the Keras VGG16, InceptionV3, and ResNet50 models. The best performing model was based on ResNet50 which is shown on the attached Jupyter Notebook.
 
-The ResNet50 model trained for 1 epoch / 281 seconds on a GTA 1080ti GPU, resulting in the following performance:
+The ResNet50 model was trained for 1 epoch / 281 seconds on a GTA 1080ti GPU, resulting in the following performance:
 
 					Loss	  Accuracy
 			Training	0.7592	  0.7234
