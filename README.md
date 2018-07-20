@@ -2,7 +2,7 @@
 
 Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection – Task 3.
 
-The original data set was augmented by rotating and zooming the images as well as adding and deleting some images to balance out the classification sets. Augmented images as well as images with identical legion identifiers https://forum.isic-archive.com/t/task-3-supplemental-information/430 were separated between training and validation sets to minimize data leakage.
+The original data was augmented by rotating and zooming the images as well as adding and deleting some images to balance out the classification sets. Augmented images as well as images with identical legion identifiers https://forum.isic-archive.com/t/task-3-supplemental-information/430 were separated between training and validation sets to minimize data leakage.
 
 The data was then trained on VGG16, InceptionV3, and ResNet50 models using Keras. The best performing model was based on ResNet50 which is shown on the attached Jupyter Notebook.
 
