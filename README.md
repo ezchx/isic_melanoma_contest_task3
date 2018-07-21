@@ -2,11 +2,11 @@
 
 Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection – Task 3.
 
-The original images were processed as follows:
+The original image set was modified as follows:
 
-- added new images to AKIEC and DF to improve class forecast accuracy 
-- deleted 75% of the NV images to balance out the classes 
-- rotated and zoomed the remaining images to increase the overall dataset 
+- added new images to AKIEC and DF
+- deleted 75% of the NV images
+- rotated and zoomed all of the remaining images
 
 Augmented images as well as images with identical legion identifiers* were separated between training and validation sets to minimize data leakage.
 
