@@ -12,6 +12,6 @@ The ResNet50 model was trained for 1 epoch / 281 seconds on a GTA 1080ti GPU, re
 			Training	0.7592	  0.7234
 			Validation	0.7210	  0.7381
 
-The model achieved a classification accuracy of 77.6% based on the ISIC contest validation data set of 193 images.
+The model achieved an average classification accuracy of 77.6% based on the ISIC contest validation data set of 193 images.
 
 Final results for the ISIC 1,512 test images will be available when the contest concludes on 07/29/2018.
