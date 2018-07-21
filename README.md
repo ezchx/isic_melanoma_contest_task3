@@ -16,4 +16,4 @@ The model achieved an average classification accuracy of 77.6% based on the ISIC
 
 Final results for the ISIC 1,512 test images will be available when the contest concludes on 07/29/2018.
 
-* https://forum.isic-archive.com/t/task-3-supplemental-information/430
+'* https://forum.isic-archive.com/t/task-3-supplemental-information/430
