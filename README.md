@@ -4,8 +4,8 @@ Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanom
 
 The original image set was modified as follows:
 
-- added new images to AKIEC and DF
-- deleted 75% of the NV images
+- added 155 AKIEC images and 223 DF images
+- deleted 5,017 NV images
 - rotated and zoomed all of the remaining images
 
 Augmented images as well as images with identical legion identifiers* were separated between training and validation sets to minimize data leakage.
