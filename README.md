@@ -4,9 +4,9 @@ Disease classification model for ISIC 2018: Skin Lesion Analysis Towards Melanom
 
 The original images were processed as follows:
 
-\- added new images to AKIEC and DF to improve class forecast accuracy
-\- deleted 75% of the NV images to balance out the classes
-\- rotated and zoomed the remaining images to increase the overall dataset
+- added new images to AKIEC and DF to improve class forecast accuracy 
+- deleted 75% of the NV images to balance out the classes 
+- rotated and zoomed the remaining images to increase the overall dataset 
 
 Augmented images as well as images with identical legion identifiers* were separated between training and validation sets to minimize data leakage.
 
